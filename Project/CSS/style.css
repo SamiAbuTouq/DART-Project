@@ -1,0 +1,280 @@
+/* Applied for All pages*/
+@font-face {
+    font-family: sami1;
+    src: url(../Fonts/Pacifico-Regular.ttf); 
+}
+@font-face {
+    font-family: sami2;
+    src: url(../Fonts/LobsterTwo-Italic.ttf);
+}
+@font-face {
+    font-family: sami3;
+    src: url(../Fonts/Sevillana-Regular.ttf);
+}
+@font-face {
+  font-family: sami4;
+  src: url(../Fonts/Tangerine-Regular.ttf);
+}
+@font-face {
+  font-family: sami5;
+  src: url(../Fonts/BungeeShade-Regular.ttf); 
+}
+@font-face {
+  font-family: sami6;
+  src: url(../Fonts/Monoton-Regular.ttf);
+}
+@font-face {
+  font-family: sami7;
+  src: url(../Fonts/Courgette-Regular.ttf);
+}
+@font-face {
+  font-family: sami8;
+  src: url(../Fonts/Merienda-VariableFont_wght.ttf);
+}
+*{
+    box-sizing: border-box;
+}
+
+body{
+
+  /* White Theme*/
+  background: #ECE9E6;  
+  background-image: linear-gradient(to right, #FFFFFF, #ECE9E6); 
+/* Black Theme*/
+background: #232526;
+background-image: linear-gradient(to right, #414345, #232526); 
+
+}
+
+#global_header{
+    background-image: url("./Images//backgrounds/HD-wallpaper-black-dots.jpg"); 
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+
+#logo{
+    width: 55px;
+    margin-left: 20px;
+}
+
+
+
+
+
+/************************************************************************************************************************************************************************************************************/
+#bt1,#bt2 {
+    position: relative;
+    left: 160px;
+    width: 180px;
+    height:35px;
+    border: white 1px solid;
+    margin-top: 10px;
+    position: relative;
+    display: inline-block;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 500px;
+    overflow: hidden;
+    background: white;
+    color: ghostwhite;
+    padding: 10px;
+   }
+   #bt2 {background: black;color: black;}
+   #bt1 span,#bt2 span {position: relative;z-index: 10;transition: color 0.4s;} 
+   #bt1:hover span {color: black;}
+   #bt2:hover span {color:white;}
+   #bt1::before,#bt1::after,#bt2::before, #bt2::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+   }
+   #bt1::before,#bt2::before {
+    content: "";
+    background: #000;
+    width: 120%;
+    left: -10%;
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+   }
+  #bt2::before {background: white;}
+   #bt1:hover::before,#bt2:hover::before {transform: translate3d(100%, 0, 0);}
+   
+/************************************************************************************************************************************************************************************************************/
+
+/* Basic Footer Styles */
+.site-footer {
+    background-color: #f8f8f8;
+    padding:40px 0;
+    padding-bottom: 15px;
+    padding-top: 25px;
+    color: #333;    
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 0px;
+}
+
+.footer-section h3 {
+    color: #222;
+    font-size: 20px;
+    margin-bottom: 15px;
+
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #666;
+    text-decoration: none;
+    
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+    color: black;
+
+}
+
+.contact-info .icon {
+    margin-right: 10px;
+    
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #000;
+    color: #000;
+}
+
+@media (max-width: 768px) {
+    .footer-section {
+        flex-basis: 80%;
+    }
+    .links ul,.about ul{
+        margin-left: 30px;
+    }
+}
+
+a[href='#top']:visited{
+    transition-duration: 2s;
+
+}
+
+/************************************************************************************************************************************************************************************************************/
+.wrapper {
+    display: inline-flex;
+    list-style: none;
+    position: relative;
+    bottom: 50px;
+    height:0px;
+    width: 100%;
+    padding: 0px;
+    margin-left: 70em;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+  }
+  
+  .wrapper .icon {
+    position: relative;
+    background: #fff;
+    border-radius: 50%;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    background: #fff;
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #fff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  
+  .wrapper .icon:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  
+  .wrapper .icon:hover span,
+  .wrapper .icon:hover .tooltip {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  .wrapper .facebook:hover,
+  .wrapper .facebook:hover .tooltip,
+  .wrapper .facebook:hover .tooltip::before {
+    background: #1877f2;
+    color: #fff;
+  }
+  
+  .wrapper .twitter:hover,
+  .wrapper .twitter:hover .tooltip,
+  .wrapper .twitter:hover .tooltip::before {
+    background: #1da1f2;
+    color: #fff;
+  }
+  
+  .wrapper .instagram:hover,
+  .wrapper .instagram:hover .tooltip,
+  .wrapper .instagram:hover .tooltip::before {
+    background: #e4405f;
+    color: #fff;
+  }
+  
