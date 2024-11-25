@@ -141,7 +141,7 @@ if (!empty($_POST)) {
     $update_stmt = $conn->prepare($update_query);
     $update_stmt->bind_param("i", $cart_id);
 
-    if ($update_stmt->  ()) {
+    if ($update_stmt->execute()) {
         $empty_cart_query = "DELETE FROM cart_items WHERE cart_id = ?";
         $empty_cart_stmt = $conn->prepare($empty_cart_query);
         $empty_cart_stmt->bind_param("i", $cart_id);
