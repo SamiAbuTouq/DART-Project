@@ -10,7 +10,6 @@ This project is a **fully functional e-commerce website** that allows users to b
 - **Market Expansion**: Continuously grow product offerings and expand into new markets. 🌍
 - **Community Engagement**: Build a vibrant community around the DART brand. 🤝
 - **Security & Performance**: Ensure high security, fast performance, and scalability of the platform. 🔒⚡
-- **Innovation**: Establish DART as a leading player in the e-commerce industry by adopting new technologies and practices. 💡
 
 ---
 
@@ -19,7 +18,6 @@ This project is a **fully functional e-commerce website** that allows users to b
 - **User Authentication**: Sign up and login functionalities for customers to securely register and authenticate themselves. 🔐
 - **Cart Management**: Add, update, and remove items from the shopping cart. 🛒
 - **Responsive Design**: Fully responsive layout to ensure compatibility with all devices, from desktops to mobile devices. 📱💻
-- **Error Handling**: Real-time error messages during sign-up and login to improve user experience. ⚠️
 - **Password Validation**: Front-end and back-end validation for password strength and formatting. 🔑
 
 ---
@@ -69,7 +67,7 @@ The relational integrity ensures consistency and efficient data retrieval for sm
 
 ### 📂 **Additional Files:**
 - **`dart.sql`**: Contains the database schema and SQL queries for creating the necessary tables in MySQL. 💻
-- **`DB_Tables_Diagram.pdf`**: A visual diagram of the database tables and their relationships. 📊
+- **`DB tables diagram.pdf`**: A visual diagram of the database tables and their relationships. 📊
 
 ---
 
