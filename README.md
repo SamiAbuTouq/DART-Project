@@ -131,6 +131,3 @@ This project demonstrates how a **simple yet powerful e-commerce platform** can 
 
 The project was completed as a **team effort**, with contributions from **Mohammed**, **Yazan Bdair**, and **Sami Abu Touq**. 🙌
 
----
-
-This README offers a comprehensive overview of the project, database structure, and technologies used. For further questions or suggestions, feel free to open an issue or contact the project team. 👩‍💻👨‍💻
