@@ -129,5 +129,5 @@ To set up and run this project locally:
 
 This project demonstrates how a **simple yet powerful e-commerce platform** can be created using **PHP**, **MySQL**, and **Bootstrap**. It offers a robust solution for managing users, products, and orders while providing a clean and responsive user interface.  
 
-The project was completed as a **team effort**, with contributions from **Mohammed**, **Yazan Bdair**, and **Sami Abu Touq**. 🙌
+The project was completed as a **team effort**, with contributions from **Sami Abu Touq**, **Yazan Bdair**, and **Mohammed**. 🙌
 
