@@ -1,4 +1,4 @@
-# 🌟 **Digital Access to Remarkable Treasures (DART) - E-commerce Project** 🌟
+# 🌟 **Digital Access to Remarkable Treasures (DART)** 🌟
 
 This project is a **fully functional e-commerce website** that allows users to browse, sign up, sign in, add items to their cart, and complete purchases. It is designed to provide a seamless user experience with a focus on simplicity and usability. Built with **PHP**, **MySQL** for database management, and **HTML/CSS** for the front end.
 
